@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="20.4" version="22.3" Modules="professional" RootPath="." Language="en" Id="{134A9EFF-31B8-4F62-8EF5-1BEAE7545CDB}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="Application_AssetGenDestFolderPath" Value="Generated Assets" ValueType="1"/>
+    <ROW Name="Application_AssetGenScalingMode" Value="1"/>
+    <ROW Name="Application_AssetGenSourceFilePath" Value="..\..\iNKORE.Assets\Logo\Open Source Projects\WpfLibrary_1024w.png" ValueType="1"/>
+    <ROW Name="Application_WorkingDir" Value="APPDIR\iNKORE\UI-WPF-Modern.Gallery\net6.0-windows10.0.18362.0"/>
+    <ROW Name="AssetGenAppIdsHistory" Value="Application:iNKORE.UI.WPF.Modern.Gallery"/>
+    <ROW Name="AssetGenEnableAutomaticCleanup" Value="true"/>
+    <ROW Name="AssetGenPkgDestFolderPath" Value="Generated Assets" ValueType="1"/>
+    <ROW Name="AssetGenPkgScalingMode" Value="1"/>
+    <ROW Name="AssetGenPkgSourceFilePath" Value="..\..\iNKORE.Assets\Logo\Open Source Projects\WpfLibrary_Cool.png" ValueType="1"/>
+    <ROW Name="MigrationUninstallCode" Value="{FEC23432-97C2-48BB-967D-44B3387F7EC2}"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="Modern (Fluent 2) styles and controls for your WPF applications" ValueLocId="*"/>
+    <ROW Property="ARPCONTACT" Value="studios@inkore.net"/>
+    <ROW Property="ARPHELPLINK" Value="https://github.com/iNKORE-NET/UI.WPF.Modern/issues/new/choose"/>
+    <ROW Property="ARPURLINFOABOUT" Value="https://docs.inkore.net/ui-wpf-modern"/>
+    <ROW Property="ARPURLUPDATEINFO" Value="https://github.com/iNKORE-NET/UI.WPF.Modern"/>
+    <ROW Property="Manufacturer" Value="iNKORE Studios"/>
+    <ROW Property="ProductCode" Value="1033:{74C3F940-ECB2-46BF-8C79-4217CF4AFB08} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="iNKORE.UI.WPF.Modern Gallery"/>
+    <ROW Property="ProductVersion" Value="0.10.0" Options="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{FEC23432-97C2-48BB-967D-44B3387F7EC2}"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="Assets" Directory_Parent="TARGETDIR" DefaultDir="Assets" IsPseudoRoot="1"/>
+    <ROW Directory="Assets_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="Assets"/>
+    <ROW Directory="SampleMedia_Dir" Directory_Parent="Assets_Dir" DefaultDir="SAMPLE~1|SampleMedia"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="UIWPFModern.Gallery_Dir" Directory_Parent="iNKORE_Dir" DefaultDir="UI-WPF~1.GAL|UI-WPF-Modern.Gallery"/>
+    <ROW Directory="afZA_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="af-ZA"/>
+    <ROW Directory="amET_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="am-ET"/>
+    <ROW Directory="arSA_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ar-SA"/>
+    <ROW Directory="asIN_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="as-IN"/>
+    <ROW Directory="azLatnAZ_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="AZ-LAT~1|az-Latn-AZ"/>
+    <ROW Directory="beBY_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="be-BY"/>
+    <ROW Directory="bgBG_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="bg-BG"/>
+    <ROW Directory="bnBD_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="bn-BD"/>
+    <ROW Directory="bnIN_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="bn-IN"/>
+    <ROW Directory="bsLatnBA_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="BS-LAT~1|bs-Latn-BA"/>
+    <ROW Directory="caES_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ca-ES"/>
+    <ROW Directory="caEsVALENCIA_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="CA-ES-~1|ca-Es-VALENCIA"/>
+    <ROW Directory="csCZ_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="cs-CZ"/>
+    <ROW Directory="cs_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="cs"/>
+    <ROW Directory="cyGB_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="cy-GB"/>
+    <ROW Directory="daDK_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="da-DK"/>
+    <ROW Directory="deDE_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="de-DE"/>
+    <ROW Directory="de_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="de"/>
+    <ROW Directory="elGR_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="el-GR"/>
+    <ROW Directory="enGB_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="en-GB"/>
+    <ROW Directory="esES_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="es-ES"/>
+    <ROW Directory="esMX_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="es-MX"/>
+    <ROW Directory="es_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="es"/>
+    <ROW Directory="etEE_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="et-EE"/>
+    <ROW Directory="euES_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="eu-ES"/>
+    <ROW Directory="faIR_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="fa-IR"/>
+    <ROW Directory="fa_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="fa"/>
+    <ROW Directory="fiFI_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="fi-FI"/>
+    <ROW Directory="filPH_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="fil-PH"/>
+    <ROW Directory="frCA_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="fr-CA"/>
+    <ROW Directory="frFR_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="fr-FR"/>
+    <ROW Directory="fr_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="fr"/>
+    <ROW Directory="gaIE_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ga-IE"/>
+    <ROW Directory="gdgb_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="gd-gb"/>
+    <ROW Directory="glES_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="gl-ES"/>
+    <ROW Directory="guIN_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="gu-IN"/>
+    <ROW Directory="haLatnNG_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="HA-LAT~1|ha-Latn-NG"/>
+    <ROW Directory="heIL_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="he-IL"/>
+    <ROW Directory="hiIN_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="hi-IN"/>
+    <ROW Directory="hrHR_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="hr-HR"/>
+    <ROW Directory="huHU_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="hu-HU"/>
+    <ROW Directory="hyAM_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="hy-AM"/>
+    <ROW Directory="iNKORE_Dir" Directory_Parent="APPDIR" DefaultDir="iNKORE"/>
+    <ROW Directory="idID_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="id-ID"/>
+    <ROW Directory="isIS_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="is-IS"/>
+    <ROW Directory="itIT_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="it-IT"/>
+    <ROW Directory="it_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="it"/>
+    <ROW Directory="jaJP_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ja-JP"/>
+    <ROW Directory="ja_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ja"/>
+    <ROW Directory="kaGE_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ka-GE"/>
+    <ROW Directory="kkKZ_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="kk-KZ"/>
+    <ROW Directory="kmKH_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="km-KH"/>
+    <ROW Directory="knIN_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="kn-IN"/>
+    <ROW Directory="koKR_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ko-KR"/>
+    <ROW Directory="ko_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ko"/>
+    <ROW Directory="kokIN_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="kok-IN"/>
+    <ROW Directory="lbLU_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="lb-LU"/>
+    <ROW Directory="loLA_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="lo-LA"/>
+    <ROW Directory="ltLT_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="lt-LT"/>
+    <ROW Directory="lvLV_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="lv-LV"/>
+    <ROW Directory="miNZ_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="mi-NZ"/>
+    <ROW Directory="mkMK_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="mk-MK"/>
+    <ROW Directory="mlIN_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ml-IN"/>
+    <ROW Directory="mrIN_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="mr-IN"/>
+    <ROW Directory="msMY_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ms-MY"/>
+    <ROW Directory="mtMT_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="mt-MT"/>
+    <ROW Directory="nbNO_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="nb-NO"/>
+    <ROW Directory="neNP_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ne-NP"/>
+    <ROW Directory="net6.0windows10.0.18362.0_Dir" Directory_Parent="UIWPFModern.Gallery_Dir" DefaultDir="NET60-~1.0|net6.0-windows10.0.18362.0"/>
+    <ROW Directory="nlNL_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="nl-NL"/>
+    <ROW Directory="nnNO_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="nn-NO"/>
+    <ROW Directory="orIN_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="or-IN"/>
+    <ROW Directory="paIN_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="pa-IN"/>
+    <ROW Directory="plPL_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="pl-PL"/>
+    <ROW Directory="pl_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="pl"/>
+    <ROW Directory="ptBR_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="pt-BR"/>
+    <ROW Directory="ptPT_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="pt-PT"/>
+    <ROW Directory="quzPE_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="quz-PE"/>
+    <ROW Directory="roRO_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ro-RO"/>
+    <ROW Directory="ruRU_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ru-RU"/>
+    <ROW Directory="ru_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ru"/>
+    <ROW Directory="skSK_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="sk-SK"/>
+    <ROW Directory="slSI_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="sl-SI"/>
+    <ROW Directory="sqAL_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="sq-AL"/>
+    <ROW Directory="srCyrlBA_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="SR-CYR~1|sr-Cyrl-BA"/>
+    <ROW Directory="srCyrlRS_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="SR-CYR~2|sr-Cyrl-RS"/>
+    <ROW Directory="srLatnRS_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="SR-LAT~1|sr-Latn-RS"/>
+    <ROW Directory="svSE_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="sv-SE"/>
+    <ROW Directory="swKE_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="sw-KE"/>
+    <ROW Directory="taIN_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ta-IN"/>
+    <ROW Directory="teIN_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="te-IN"/>
+    <ROW Directory="thTH_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="th-TH"/>
+    <ROW Directory="trTR_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="tr-TR"/>
+    <ROW Directory="tr_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="tr"/>
+    <ROW Directory="ttRU_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="tt-RU"/>
+    <ROW Directory="ugCN_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ug-CN"/>
+    <ROW Directory="ukUA_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="uk-UA"/>
+    <ROW Directory="urPK_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="ur-PK"/>
+    <ROW Directory="uzLatnUZ_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="UZ-LAT~1|uz-Latn-UZ"/>
+    <ROW Directory="viVN_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="vi-VN"/>
+    <ROW Directory="zhCN_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="zh-CN"/>
+    <ROW Directory="zhHans_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="zh-Hans"/>
+    <ROW Directory="zhHant_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="zh-Hant"/>
+    <ROW Directory="zhTW_Dir" Directory_Parent="net6.0windows10.0.18362.0_Dir" DefaultDir="zh-TW"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="APPDIR" ComponentId="{DEB6F7C8-71DF-4236-991B-2F846F23D641}" Directory_="APPDIR" Attributes="0"/>
+    <ROW Component="AppIcon.ico" ComponentId="{89B434EB-4A97-44B5-8DEA-BD6FDD1A6D77}" Directory_="Assets_Dir" Attributes="0" KeyPath="AppIcon.ico" Type="0"/>
+    <ROW Component="ColorCodeStandard.dll" ComponentId="{441ED39E-F0E4-469C-A96C-72B0DA8D142E}" Directory_="net6.0windows10.0.18362.0_Dir" Attributes="0" KeyPath="ColorCodeStandard.dll"/>
+    <ROW Component="Gallery_build202501231520.zip" ComponentId="{1031DD99-305C-4C04-ADDF-606EAFBAF9E0}" Directory_="net6.0windows10.0.18362.0_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Gallery.deps.json" Type="0"/>
+    <ROW Component="ICSharpCode.AvalonEdit.dll" ComponentId="{ED065CA3-2C09-4BA1-8957-DA35EE4CEA54}" Directory_="net6.0windows10.0.18362.0_Dir" Attributes="0" KeyPath="ICSharpCode.AvalonEdit.dll"/>
+    <ROW Component="Microsoft.Windows.SDK.NET.dll" ComponentId="{35B7A16D-EC58-4FAE-841B-11338020A1BC}" Directory_="net6.0windows10.0.18362.0_Dir" Attributes="0" KeyPath="Microsoft.Windows.SDK.NET.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{AD1D1AA6-4A75-456B-8DAA-0E86AEC77701}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
+    <ROW Component="SamplesCommon.dll" ComponentId="{72BECD91-1E2B-4963-A700-A667215E776F}" Directory_="net6.0windows10.0.18362.0_Dir" Attributes="0" KeyPath="SamplesCommon.dll"/>
+    <ROW Component="Store50x50Logo.scale100.png" ComponentId="{C15BD5B5-68BF-4960-96F8-6C0B889FBCFF}" Directory_="Assets" Attributes="0" KeyPath="Store50x50Logo.scale100.png" Type="0"/>
+    <ROW Component="WinRT.Runtime.dll" ComponentId="{D8627348-CBDC-4513-8EA4-65094E68BB88}" Directory_="net6.0windows10.0.18362.0_Dir" Attributes="0" KeyPath="WinRT.Runtime.dll"/>
+    <ROW Component="fishes.wmv" ComponentId="{210D545E-8009-426E-BC34-61D94AE7238F}" Directory_="SampleMedia_Dir" Attributes="0" KeyPath="fishes.wmv" Type="0"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.dll" ComponentId="{F394DF11-470B-4AFD-B947-B33218A13224}" Directory_="net6.0windows10.0.18362.0_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_100_urces.dll" ComponentId="{9AC21A63-8DA4-4DAE-9165-1B07321AB6E1}" Directory_="zhHant_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_100_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_101_urces.dll" ComponentId="{410525B7-CE17-487B-9C9E-D8DE5D35D6E5}" Directory_="zhTW_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_101_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_10_urces.dll" ComponentId="{56140E04-AB32-43B1-AD37-E83D780EBCAE}" Directory_="caES_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_10_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_11_urces.dll" ComponentId="{6F6E2EB3-11B9-4A24-A6EA-AA567E5D5729}" Directory_="caEsVALENCIA_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_11_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_12_urces.dll" ComponentId="{0B94DB50-2028-4BD3-83EC-BDB14C916B7D}" Directory_="cs_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_12_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_13_urces.dll" ComponentId="{EFC92DC1-BB61-4C7C-8EC1-B2A57D67543C}" Directory_="csCZ_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_13_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_14_urces.dll" ComponentId="{9F471465-9720-42DA-8D89-6B45229BF13C}" Directory_="cyGB_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_14_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_15_urces.dll" ComponentId="{DC888C2C-1747-44C0-837D-1EC214854349}" Directory_="daDK_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_15_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_16_urces.dll" ComponentId="{BBD46493-56A9-4122-B239-1414C6D581F6}" Directory_="de_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_16_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_17_urces.dll" ComponentId="{E470FC8C-A553-4EE9-9AF8-0631527D23CB}" Directory_="deDE_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_17_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_18_urces.dll" ComponentId="{738F661B-B936-413F-9E99-5D8650008F52}" Directory_="elGR_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_18_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_19_urces.dll" ComponentId="{1900D062-77F0-403B-B16E-CE088E2307D9}" Directory_="enGB_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_19_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_1_urces.dll" ComponentId="{C3656952-141C-420E-B125-F8EECCF704D7}" Directory_="amET_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_1_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_20_urces.dll" ComponentId="{EFD2C2FD-0C99-4DB4-9B9A-F2B04A4DA122}" Directory_="es_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_20_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_21_urces.dll" ComponentId="{DA31A6A6-3BE9-4CF3-B990-EA006EE27FEB}" Directory_="esES_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_21_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_22_urces.dll" ComponentId="{04F5972A-ADA9-4684-91A3-9DDA4BFBAF08}" Directory_="esMX_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_22_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_23_urces.dll" ComponentId="{CFF3D8E8-014A-41F5-B14E-1A744BB026D0}" Directory_="etEE_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_23_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_24_urces.dll" ComponentId="{47FEF579-1E25-4010-A3D5-8F3B689CAFFE}" Directory_="euES_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_24_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_25_urces.dll" ComponentId="{5F1CF2BE-02B4-46C4-983D-ECCB60424B2A}" Directory_="fa_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_25_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_26_urces.dll" ComponentId="{F5B243C5-F41C-41B2-9A71-06A455C200F9}" Directory_="faIR_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_26_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_27_urces.dll" ComponentId="{4C1834EB-8C38-41CA-9A96-890B511115F0}" Directory_="fiFI_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_27_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_28_urces.dll" ComponentId="{02D251F4-C27B-4485-9F8B-3A8198047133}" Directory_="filPH_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_28_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_29_urces.dll" ComponentId="{BD44B449-2547-4994-A013-C5545A02D73D}" Directory_="fr_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_29_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_2_urces.dll" ComponentId="{3F073359-71EB-44AE-B3A4-EBA7891A2BA5}" Directory_="arSA_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_2_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_30_urces.dll" ComponentId="{410667D7-D62E-4AA1-9908-13CEAF576130}" Directory_="frCA_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_30_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_31_urces.dll" ComponentId="{C2BD3AFB-EEF1-45F5-8847-65E485F7A13D}" Directory_="frFR_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_31_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_32_urces.dll" ComponentId="{2F8E4846-3950-44AF-8D7E-C3D7E9AB0060}" Directory_="gaIE_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_32_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_33_urces.dll" ComponentId="{6DF4BCC4-CB21-4118-BC35-D5B5ED8796E2}" Directory_="gdgb_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_33_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_34_urces.dll" ComponentId="{59DAB8D3-0611-4467-ADEC-BF5751124A31}" Directory_="glES_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_34_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_35_urces.dll" ComponentId="{A49783CE-F485-44FF-A5F8-CD26B7A5C180}" Directory_="guIN_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_35_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_36_urces.dll" ComponentId="{9807F5C5-95A1-492D-9A18-1D3205DBF57B}" Directory_="haLatnNG_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_36_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_37_urces.dll" ComponentId="{AFB4E0CB-54CA-4707-9946-05EA48216875}" Directory_="heIL_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_37_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_38_urces.dll" ComponentId="{1818EA87-80F7-47F9-9D70-F328221C3BC1}" Directory_="hiIN_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_38_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_39_urces.dll" ComponentId="{A209418F-6923-4264-B2FC-6C552D42D5CF}" Directory_="hrHR_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_39_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_3_urces.dll" ComponentId="{F1A142DA-C862-4162-BA7C-47C2C47E55E9}" Directory_="asIN_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_3_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_40_urces.dll" ComponentId="{6B13F63F-3916-4C46-83DF-0BC1FC85C739}" Directory_="huHU_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_40_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_41_urces.dll" ComponentId="{ECD83FD0-2BC7-42B5-8D35-EA5A36512C75}" Directory_="hyAM_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_41_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_42_urces.dll" ComponentId="{DE20059C-1CCC-400C-AF29-DEE2D6172723}" Directory_="idID_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_42_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_43_urces.dll" ComponentId="{713D46CB-633A-486B-9C8C-28CE297F154E}" Directory_="isIS_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_43_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_44_urces.dll" ComponentId="{79F819B2-7343-4273-9FA4-9D777D47A03A}" Directory_="it_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_44_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_45_urces.dll" ComponentId="{A78A6724-B9AE-43A4-8D41-ADAB4841E548}" Directory_="itIT_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_45_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_46_urces.dll" ComponentId="{66D5A2DE-B449-4231-B611-DEEEBD13B3E8}" Directory_="ja_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_46_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_47_urces.dll" ComponentId="{357A3D95-66C1-4D4C-B3EF-F60747676E02}" Directory_="jaJP_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_47_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_48_urces.dll" ComponentId="{E26CAD8E-9A45-4B2F-B8B6-DCEA8B6521EE}" Directory_="kaGE_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_48_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_49_urces.dll" ComponentId="{0E2148C5-5985-496B-B857-9A81AA0CF959}" Directory_="kkKZ_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_49_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_4_urces.dll" ComponentId="{529206E9-6FE2-482B-AC49-3BEEE7ECD2EF}" Directory_="azLatnAZ_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_4_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_50_urces.dll" ComponentId="{3A4C5E1A-4A37-4832-8FE6-6E36D74D557C}" Directory_="kmKH_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_50_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_51_urces.dll" ComponentId="{E5563981-E6A8-486F-BE66-53F8A6F55FF6}" Directory_="knIN_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_51_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_52_urces.dll" ComponentId="{C9EDC038-5B37-4CE3-83C8-8CC500C96F7F}" Directory_="ko_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_52_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_53_urces.dll" ComponentId="{96CB37E9-F574-40B7-84F5-2F2FD6DB7A27}" Directory_="koKR_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_53_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_54_urces.dll" ComponentId="{F325EC8B-E5AF-44EB-8ACB-46BD48642623}" Directory_="kokIN_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_54_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_55_urces.dll" ComponentId="{DDD9713A-3A85-4FD0-A081-B137A2EA45C6}" Directory_="lbLU_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_55_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_56_urces.dll" ComponentId="{CDE577E9-DD52-43FF-9242-82E55703161A}" Directory_="loLA_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_56_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_57_urces.dll" ComponentId="{AD327112-5255-4FF4-8F00-F8EC3C34CF67}" Directory_="ltLT_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_57_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_58_urces.dll" ComponentId="{45485D72-FF0D-472D-99A0-4711D07BBEF0}" Directory_="lvLV_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_58_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_59_urces.dll" ComponentId="{8FF28D37-16B0-4CF1-9B67-5EADE41136B0}" Directory_="miNZ_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_59_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_5_urces.dll" ComponentId="{BAA031EF-7561-482F-8456-625059D0F963}" Directory_="beBY_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_5_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_60_urces.dll" ComponentId="{AE9DC401-7DA6-4E14-B92B-64FCAAA53C98}" Directory_="mkMK_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_60_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_61_urces.dll" ComponentId="{0E4596A1-9159-4C2B-8FB4-E66359C9D668}" Directory_="mlIN_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_61_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_62_urces.dll" ComponentId="{D83B9AD4-85AC-42C8-BE79-8A9D654F4590}" Directory_="mrIN_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_62_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_63_urces.dll" ComponentId="{6DE380F2-1642-421A-9765-025D1961EEED}" Directory_="msMY_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_63_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_64_urces.dll" ComponentId="{19896A82-13C5-474C-A5AB-0323EBBB6569}" Directory_="mtMT_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_64_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_65_urces.dll" ComponentId="{8854C766-C4F5-44D2-8646-6770D768B78F}" Directory_="nbNO_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_65_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_66_urces.dll" ComponentId="{266CF95B-7CF9-4C2B-A429-9E195BF0999E}" Directory_="neNP_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_66_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_67_urces.dll" ComponentId="{02443D63-CB44-4269-9E5D-60ED6E7E74D5}" Directory_="nlNL_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_67_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_68_urces.dll" ComponentId="{F364639E-814E-481E-A0B4-641502C49C6C}" Directory_="nnNO_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_68_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_69_urces.dll" ComponentId="{032D3B48-FF87-4D52-9EE4-21AFB9F25B54}" Directory_="orIN_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_69_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_6_urces.dll" ComponentId="{17B398F5-DE5C-4F45-A459-9971C8D1A221}" Directory_="bgBG_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_6_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_70_urces.dll" ComponentId="{EDF6CCFA-9DCE-4661-AF18-177780E4B30E}" Directory_="paIN_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_70_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_71_urces.dll" ComponentId="{ABE3F155-7795-41C2-96C7-4D808D0B6ED6}" Directory_="pl_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_71_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_72_urces.dll" ComponentId="{27DFD2E7-523F-4B44-A904-1C4AD21180B0}" Directory_="plPL_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_72_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_73_urces.dll" ComponentId="{514D98F8-10BE-4170-A2A3-C4B744FDD2EF}" Directory_="ptBR_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_73_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_74_urces.dll" ComponentId="{A48E56B1-CAEF-46AC-942F-445E1D808382}" Directory_="ptPT_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_74_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_75_urces.dll" ComponentId="{2724EEEE-01FC-4F09-BB4C-392549297D1F}" Directory_="quzPE_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_75_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_76_urces.dll" ComponentId="{0CE0D21D-4577-49E4-8DA9-E3B22A09FA10}" Directory_="roRO_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_76_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_77_urces.dll" ComponentId="{A9BC429E-81F6-4D0A-808C-A4E80720B552}" Directory_="ru_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_77_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_78_urces.dll" ComponentId="{2BB1D456-9C15-4D08-A5D8-AA71D51164DB}" Directory_="ruRU_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_78_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_79_urces.dll" ComponentId="{B151568B-4EAC-4335-80F3-CEEA33151574}" Directory_="skSK_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_79_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_7_urces.dll" ComponentId="{B660E25F-30A1-464E-B0FF-CD19E9658868}" Directory_="bnBD_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_7_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_80_urces.dll" ComponentId="{BCC436F3-97FE-4C79-A89B-B71519456251}" Directory_="slSI_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_80_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_81_urces.dll" ComponentId="{C46C7E51-EE1F-459E-A1BC-4B41CF560F38}" Directory_="sqAL_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_81_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_82_urces.dll" ComponentId="{531F229D-DFB0-4CD9-AB4D-D7E5321AEBE0}" Directory_="srCyrlBA_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_82_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_83_urces.dll" ComponentId="{FAF60EAE-3B21-4A37-B9CB-36CD5B548910}" Directory_="srCyrlRS_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_83_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_84_urces.dll" ComponentId="{6CC51D26-F969-4183-A40F-B113C67FCFA2}" Directory_="srLatnRS_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_84_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_85_urces.dll" ComponentId="{C35D6A8D-7170-4081-9310-E7C07EFDE4B4}" Directory_="svSE_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_85_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_86_urces.dll" ComponentId="{315A6FA3-1693-490F-BC25-8BAB46DC89FB}" Directory_="swKE_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_86_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_87_urces.dll" ComponentId="{3EDE589A-83B9-465C-9648-2E144E181EA2}" Directory_="taIN_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_87_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_88_urces.dll" ComponentId="{C701B75D-54E9-430D-8D02-31A2DFC7929D}" Directory_="teIN_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_88_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_89_urces.dll" ComponentId="{0C73A066-2638-4596-AF45-F2BE92E92720}" Directory_="thTH_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_89_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_8_urces.dll" ComponentId="{C4002E6C-80D8-413D-A6A9-45B85ABD3E1F}" Directory_="bnIN_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_8_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_90_urces.dll" ComponentId="{360561C9-6AD7-4EDF-B7D4-EDF352BCDF3B}" Directory_="tr_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_90_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_91_urces.dll" ComponentId="{36583BC3-48BB-4531-B137-D10CCC43439C}" Directory_="trTR_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_91_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_92_urces.dll" ComponentId="{CB221BA9-066E-46DF-A09C-127D135B7E73}" Directory_="ttRU_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_92_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_93_urces.dll" ComponentId="{39BA04EE-ACEB-4754-8351-A22442CD6FA3}" Directory_="ugCN_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_93_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_94_urces.dll" ComponentId="{C5E65665-D35F-4764-972C-FB0D9BB26E0C}" Directory_="ukUA_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_94_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_95_urces.dll" ComponentId="{0059BFE6-85CB-4884-B1DE-9C8A5673111E}" Directory_="urPK_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_95_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_96_urces.dll" ComponentId="{7C61E279-4E34-4522-8567-76E4546960AE}" Directory_="uzLatnUZ_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_96_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_97_urces.dll" ComponentId="{FBE8F81C-E7B0-45F8-BA67-006A51DDA3B2}" Directory_="viVN_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_97_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_98_urces.dll" ComponentId="{150D0851-C61F-4290-9BC7-5BB581F4E6A3}" Directory_="zhCN_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_98_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_99_urces.dll" ComponentId="{0FA83B75-54F6-4E14-92BD-7BF3D2B63FAF}" Directory_="zhHans_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_99_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.reso_9_urces.dll" ComponentId="{5BB18D8C-B39D-4F36-8F89-085D66A26798}" Directory_="bsLatnBA_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.reso_9_urces.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Controls.resources.dll" ComponentId="{91363657-39C2-4D7E-8594-6743AEB2D3AE}" Directory_="afZA_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Controls.resources.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Gallery.dll" ComponentId="{EF0BDECC-4A0D-4A59-A334-F46E9E46FF2A}" Directory_="net6.0windows10.0.18362.0_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.Gallery.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.Gallery.exe" ComponentId="{1B0C43DE-A72A-46FF-9709-D41A80505119}" Directory_="net6.0windows10.0.18362.0_Dir" Attributes="256" KeyPath="iNKORE.UI.WPF.Modern.Gallery.exe"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.dll" ComponentId="{100B21D4-2718-47A2-98DE-3AEDF767CDA3}" Directory_="net6.0windows10.0.18362.0_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll" ComponentId="{1F6E1117-A335-47AD-8C38-27CBBF2547FA}" Directory_="csCZ_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll_1" ComponentId="{34222D2D-C714-41F2-BD71-FE9DE47CE4F4}" Directory_="deDE_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll_1"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll_10" ComponentId="{BAF0E784-FD32-457A-895F-34AB2F0EA9A4}" Directory_="plPL_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll_10"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll_11" ComponentId="{E4EA3E8B-5BEC-49EC-BBFC-3ECF785D2A1D}" Directory_="ptBR_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll_11"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll_12" ComponentId="{2879689A-1F91-49F6-9291-F1FC5D342A7E}" Directory_="ptPT_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll_12"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll_13" ComponentId="{F5988712-0954-4A84-BCE8-DED50912F896}" Directory_="ruRU_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll_13"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll_14" ComponentId="{C94A3600-DE51-43C2-8171-54F02EC86CCB}" Directory_="trTR_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll_14"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll_15" ComponentId="{773A4A8E-8C45-498E-AACC-BDA54963EBB8}" Directory_="zhCN_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll_15"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll_16" ComponentId="{DE8E20DB-0118-4B33-B03F-52E53DD85104}" Directory_="zhTW_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll_16"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll_2" ComponentId="{3FA95734-2359-4918-B238-A0EDB3BD0D26}" Directory_="esES_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll_2"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll_3" ComponentId="{2F7A6BE2-B1B0-422C-BB41-7EE3D6FFB0CE}" Directory_="esMX_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll_3"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll_4" ComponentId="{EE081D2C-AD6D-48B3-A7AB-26590EB1DB32}" Directory_="faIR_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll_4"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll_5" ComponentId="{E0D43A8D-EE28-450E-AD04-65D44857EF60}" Directory_="frCA_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll_5"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll_6" ComponentId="{C387336C-6EEA-4C17-84B5-4D9AED424CB9}" Directory_="frFR_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll_6"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll_7" ComponentId="{A1293D1A-734B-43AB-9185-4DDCE6480078}" Directory_="itIT_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll_7"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll_8" ComponentId="{ADBF5A57-538C-4E00-B670-E98191288E32}" Directory_="jaJP_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll_8"/>
+    <ROW Component="iNKORE.UI.WPF.Modern.resources.dll_9" ComponentId="{D53ED909-9483-4FE0-AFA3-08139054A85C}" Directory_="koKR_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.Modern.resources.dll_9"/>
+    <ROW Component="iNKORE.UI.WPF.dll" ComponentId="{1B9AF12C-C775-485F-9DD6-4FAB7EDA2B11}" Directory_="net6.0windows10.0.18362.0_Dir" Attributes="0" KeyPath="iNKORE.UI.WPF.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="AiAppXAssets" Title="AiAppXAssets" Description="Description" Display="3" Level="0" Directory_="APPDIR" Attributes="0" Options="271" Builds="Build_MSIX"/>
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Store50x50Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="STORE5~1.PNG|Store50x50Logo.scale-100.png" Attributes="0" SourcePath="Generated Assets\Store50x50Logo.scale-100.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.ModernSquare44x44Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="INKORE~1.PNG|iNKORE.UI.WPF.ModernSquare44x44Logo.scale-100.png" Attributes="0" SourcePath="&lt;AI_RES&gt;appx\SmallLogo10.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.ModernSquare150x150Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="INKORE~2.PNG|iNKORE.UI.WPF.ModernSquare150x150Logo.scale-100.png" Attributes="0" SourcePath="&lt;AI_RES&gt;appx\Logo.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Gallery.exe" Component_="iNKORE.UI.WPF.Modern.Gallery.exe" FileName="INKORE~1.EXE|iNKORE.UI.WPF.Modern.Gallery.exe" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\iNKORE.UI.WPF.Modern.Gallery.exe" SelfReg="false" DigSign="true"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare150x150Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="INKORE~8.PNG|iNKORE.UI.WPF.Modern.GallerySquare150x150Logo.scale-100.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare150x150Logo.scale-100.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~23.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.scale-100.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.scale-100.png" SelfReg="false"/>
+    <ROW File="Store50x50Logo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="STORE5~2.PNG|Store50x50Logo.scale-125.png" Attributes="0" SourcePath="Generated Assets\Store50x50Logo.scale-125.png" SelfReg="false"/>
+    <ROW File="Store50x50Logo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="STORE5~3.PNG|Store50x50Logo.scale-150.png" Attributes="0" SourcePath="Generated Assets\Store50x50Logo.scale-150.png" SelfReg="false"/>
+    <ROW File="Store50x50Logo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="STORE5~4.PNG|Store50x50Logo.scale-200.png" Attributes="0" SourcePath="Generated Assets\Store50x50Logo.scale-200.png" SelfReg="false"/>
+    <ROW File="Store50x50Logo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="STORE5~5.PNG|Store50x50Logo.scale-400.png" Attributes="0" SourcePath="Generated Assets\Store50x50Logo.scale-400.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare71x71Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="INKORE~3.PNG|iNKORE.UI.WPF.Modern.GallerySquare71x71Logo.scale-100.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare71x71Logo.scale-100.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare71x71Logo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="INKORE~4.PNG|iNKORE.UI.WPF.Modern.GallerySquare71x71Logo.scale-125.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare71x71Logo.scale-125.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare71x71Logo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="INKORE~5.PNG|iNKORE.UI.WPF.Modern.GallerySquare71x71Logo.scale-150.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare71x71Logo.scale-150.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare71x71Logo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="INKORE~6.PNG|iNKORE.UI.WPF.Modern.GallerySquare71x71Logo.scale-200.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare71x71Logo.scale-200.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare71x71Logo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="INKORE~7.PNG|iNKORE.UI.WPF.Modern.GallerySquare71x71Logo.scale-400.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare71x71Logo.scale-400.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare150x150Logo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="INKORE~9.PNG|iNKORE.UI.WPF.Modern.GallerySquare150x150Logo.scale-125.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare150x150Logo.scale-125.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare150x150Logo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~10.PNG|iNKORE.UI.WPF.Modern.GallerySquare150x150Logo.scale-150.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare150x150Logo.scale-150.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare150x150Logo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~11.PNG|iNKORE.UI.WPF.Modern.GallerySquare150x150Logo.scale-200.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare150x150Logo.scale-200.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare150x150Logo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~12.PNG|iNKORE.UI.WPF.Modern.GallerySquare150x150Logo.scale-400.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare150x150Logo.scale-400.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GalleryWide310x150Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~13.PNG|iNKORE.UI.WPF.Modern.GalleryWide310x150Logo.scale-100.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GalleryWide310x150Logo.scale-100.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GalleryWide310x150Logo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~14.PNG|iNKORE.UI.WPF.Modern.GalleryWide310x150Logo.scale-125.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GalleryWide310x150Logo.scale-125.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GalleryWide310x150Logo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~15.PNG|iNKORE.UI.WPF.Modern.GalleryWide310x150Logo.scale-150.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GalleryWide310x150Logo.scale-150.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GalleryWide310x150Logo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~16.PNG|iNKORE.UI.WPF.Modern.GalleryWide310x150Logo.scale-200.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GalleryWide310x150Logo.scale-200.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GalleryWide310x150Logo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~17.PNG|iNKORE.UI.WPF.Modern.GalleryWide310x150Logo.scale-400.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GalleryWide310x150Logo.scale-400.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare310x310Logo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~18.PNG|iNKORE.UI.WPF.Modern.GallerySquare310x310Logo.scale-100.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare310x310Logo.scale-100.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare310x310Logo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~19.PNG|iNKORE.UI.WPF.Modern.GallerySquare310x310Logo.scale-125.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare310x310Logo.scale-125.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare310x310Logo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~20.PNG|iNKORE.UI.WPF.Modern.GallerySquare310x310Logo.scale-150.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare310x310Logo.scale-150.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare310x310Logo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~21.PNG|iNKORE.UI.WPF.Modern.GallerySquare310x310Logo.scale-200.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare310x310Logo.scale-200.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare310x310Logo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~22.PNG|iNKORE.UI.WPF.Modern.GallerySquare310x310Logo.scale-400.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare310x310Logo.scale-400.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize16.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~24.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-16.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-16.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize16_altformunpla" Component_="Store50x50Logo.scale100.png" FileName="INKOR~25.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-16_altform-unplated.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-16_altform-unplated.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize16_altformlight" Component_="Store50x50Logo.scale100.png" FileName="INKOR~26.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-16_altform-lightunplated.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-16_altform-lightunplated.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~27.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.scale-125.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.scale-125.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize24.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~28.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-24.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-24.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize24_altformunpla" Component_="Store50x50Logo.scale100.png" FileName="INKOR~29.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-24_altform-unplated.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-24_altform-unplated.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize24_altformlight" Component_="Store50x50Logo.scale100.png" FileName="INKOR~30.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-24_altform-lightunplated.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-24_altform-lightunplated.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~31.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.scale-150.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.scale-150.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize32.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~32.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-32.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-32.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize32_altformunpla" Component_="Store50x50Logo.scale100.png" FileName="INKOR~33.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-32_altform-unplated.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-32_altform-unplated.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize32_altformlight" Component_="Store50x50Logo.scale100.png" FileName="INKOR~34.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-32_altform-lightunplated.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-32_altform-lightunplated.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~35.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.scale-200.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.scale-200.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize48.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~36.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-48.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-48.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize48_altformunpla" Component_="Store50x50Logo.scale100.png" FileName="INKOR~37.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-48_altform-unplated.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-48_altform-unplated.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize48_altformlight" Component_="Store50x50Logo.scale100.png" FileName="INKOR~38.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-48_altform-lightunplated.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-48_altform-lightunplated.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~39.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.scale-400.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.scale-400.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize256.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~40.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-256.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-256.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize256_altformunpl" Component_="Store50x50Logo.scale100.png" FileName="INKOR~41.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-256_altform-unplated.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-256_altform-unplated.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize256_altformligh" Component_="Store50x50Logo.scale100.png" FileName="INKOR~42.PNG|iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-256_altform-lightunplated.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.targetsize-256_altform-lightunplated.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySplashScreen.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~43.PNG|iNKORE.UI.WPF.Modern.GallerySplashScreen.scale-100.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySplashScreen.scale-100.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySplashScreen.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~44.PNG|iNKORE.UI.WPF.Modern.GallerySplashScreen.scale-125.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySplashScreen.scale-125.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySplashScreen.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~45.PNG|iNKORE.UI.WPF.Modern.GallerySplashScreen.scale-150.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySplashScreen.scale-150.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySplashScreen.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~46.PNG|iNKORE.UI.WPF.Modern.GallerySplashScreen.scale-200.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySplashScreen.scale-200.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GallerySplashScreen.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~47.PNG|iNKORE.UI.WPF.Modern.GallerySplashScreen.scale-400.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GallerySplashScreen.scale-400.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GalleryBadgeLogo.scale100.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~48.PNG|iNKORE.UI.WPF.Modern.GalleryBadgeLogo.scale-100.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GalleryBadgeLogo.scale-100.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GalleryBadgeLogo.scale125.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~49.PNG|iNKORE.UI.WPF.Modern.GalleryBadgeLogo.scale-125.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GalleryBadgeLogo.scale-125.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GalleryBadgeLogo.scale150.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~50.PNG|iNKORE.UI.WPF.Modern.GalleryBadgeLogo.scale-150.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GalleryBadgeLogo.scale-150.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GalleryBadgeLogo.scale200.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~51.PNG|iNKORE.UI.WPF.Modern.GalleryBadgeLogo.scale-200.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GalleryBadgeLogo.scale-200.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.GalleryBadgeLogo.scale400.png" Component_="Store50x50Logo.scale100.png" FileName="INKOR~52.PNG|iNKORE.UI.WPF.Modern.GalleryBadgeLogo.scale-400.png" Attributes="0" SourcePath="Generated Assets\iNKORE.UI.WPF.Modern.GalleryBadgeLogo.scale-400.png" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.resources.dll" Component_="iNKORE.UI.WPF.Modern.Controls.resources.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\af-ZA\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_1_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_1_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\am-ET\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_2_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_2_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ar-SA\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_3_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_3_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\as-IN\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="AppIcon.ico" Component_="AppIcon.ico" FileName="AppIcon.ico" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\Assets\AppIcon.ico" SelfReg="false"/>
+    <ROW File="fishes.wmv" Component_="fishes.wmv" FileName="fishes.wmv" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\Assets\SampleMedia\fishes.wmv" SelfReg="false"/>
+    <ROW File="ladybug.wmv" Component_="fishes.wmv" FileName="ladybug.wmv" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\Assets\SampleMedia\ladybug.wmv" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_4_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_4_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\az-Latn-AZ\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_5_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_5_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\be-BY\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_6_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_6_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\bg-BG\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_7_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_7_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\bn-BD\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_8_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_8_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\bn-IN\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_9_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_9_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\bs-Latn-BA\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_10_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_10_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ca-ES\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_11_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_11_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ca-Es-VALENCIA\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="ColorCodeStandard.dll" Component_="ColorCodeStandard.dll" FileName="COLORC~1.DLL|ColorCodeStandard.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ColorCodeStandard.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_12_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_12_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\cs\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_13_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_13_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\cs-CZ\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll" Component_="iNKORE.UI.WPF.Modern.resources.dll" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\cs-CZ\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_14_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_14_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\cy-GB\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_15_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_15_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\da-DK\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_16_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_16_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\de\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_17_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_17_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\de-DE\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll_1" Component_="iNKORE.UI.WPF.Modern.resources.dll_1" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\de-DE\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_18_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_18_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\el-GR\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_19_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_19_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\en-GB\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_20_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_20_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\es\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_21_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_21_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\es-ES\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll_2" Component_="iNKORE.UI.WPF.Modern.resources.dll_2" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\es-ES\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_22_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_22_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\es-MX\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll_3" Component_="iNKORE.UI.WPF.Modern.resources.dll_3" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\es-MX\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_23_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_23_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\et-EE\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_24_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_24_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\eu-ES\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_25_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_25_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\fa\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_26_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_26_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\fa-IR\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll_4" Component_="iNKORE.UI.WPF.Modern.resources.dll_4" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\fa-IR\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_27_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_27_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\fi-FI\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_28_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_28_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\fil-PH\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_29_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_29_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\fr\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_30_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_30_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\fr-CA\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll_5" Component_="iNKORE.UI.WPF.Modern.resources.dll_5" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\fr-CA\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_31_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_31_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\fr-FR\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll_6" Component_="iNKORE.UI.WPF.Modern.resources.dll_6" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\fr-FR\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_32_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_32_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ga-IE\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_33_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_33_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\gd-gb\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_34_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_34_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\gl-ES\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_35_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_35_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\gu-IN\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_36_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_36_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ha-Latn-NG\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_37_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_37_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\he-IL\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_38_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_38_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\hi-IN\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_39_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_39_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\hr-HR\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_40_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_40_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\hu-HU\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_41_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_41_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\hy-AM\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="ICSharpCode.AvalonEdit.dll" Component_="ICSharpCode.AvalonEdit.dll" FileName="ICSHAR~1.DLL|ICSharpCode.AvalonEdit.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ICSharpCode.AvalonEdit.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_42_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_42_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\id-ID\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.dll" Component_="iNKORE.UI.WPF.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\iNKORE.UI.WPF.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.dll" Component_="iNKORE.UI.WPF.Modern.Controls.dll" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.Controls.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\iNKORE.UI.WPF.Modern.Controls.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.pdb" Component_="iNKORE.UI.WPF.Modern.Controls.dll" FileName="INKORE~1.PDB|iNKORE.UI.WPF.Modern.Controls.pdb" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\iNKORE.UI.WPF.Modern.Controls.pdb" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.dll" Component_="iNKORE.UI.WPF.Modern.dll" FileName="INKORE~3.DLL|iNKORE.UI.WPF.Modern.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\iNKORE.UI.WPF.Modern.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Gallery.deps.json" Component_="Gallery_build202501231520.zip" FileName="INKORE~1.JSO|iNKORE.UI.WPF.Modern.Gallery.deps.json" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\iNKORE.UI.WPF.Modern.Gallery.deps.json" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Gallery.dll" Component_="iNKORE.UI.WPF.Modern.Gallery.dll" FileName="INKORE~4.DLL|iNKORE.UI.WPF.Modern.Gallery.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\iNKORE.UI.WPF.Modern.Gallery.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Gallery.dll.config" Component_="Gallery_build202501231520.zip" FileName="INKORE~1.CON|iNKORE.UI.WPF.Modern.Gallery.dll.config" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\iNKORE.UI.WPF.Modern.Gallery.dll.config" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Gallery.pdb" Component_="iNKORE.UI.WPF.Modern.Gallery.exe" FileName="INKORE~2.PDB|iNKORE.UI.WPF.Modern.Gallery.pdb" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\iNKORE.UI.WPF.Modern.Gallery.pdb" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Gallery.runtimeconfig.json" Component_="Gallery_build202501231520.zip" FileName="INKORE~2.JSO|iNKORE.UI.WPF.Modern.Gallery.runtimeconfig.json" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\iNKORE.UI.WPF.Modern.Gallery.runtimeconfig.json" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.pdb" Component_="iNKORE.UI.WPF.Modern.dll" FileName="INKORE~3.PDB|iNKORE.UI.WPF.Modern.pdb" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\iNKORE.UI.WPF.Modern.pdb" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.xml" Component_="Gallery_build202501231520.zip" FileName="INKORE~1.XML|iNKORE.UI.WPF.Modern.xml" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\iNKORE.UI.WPF.Modern.xml" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_43_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_43_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\is-IS\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_44_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_44_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\it\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_45_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_45_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\it-IT\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll_7" Component_="iNKORE.UI.WPF.Modern.resources.dll_7" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\it-IT\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_46_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_46_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ja\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_47_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_47_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ja-JP\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll_8" Component_="iNKORE.UI.WPF.Modern.resources.dll_8" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ja-JP\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_48_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_48_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ka-GE\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_49_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_49_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\kk-KZ\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_50_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_50_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\km-KH\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_51_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_51_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\kn-IN\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_52_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_52_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ko\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_53_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_53_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ko-KR\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll_9" Component_="iNKORE.UI.WPF.Modern.resources.dll_9" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ko-KR\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_54_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_54_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\kok-IN\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_55_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_55_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\lb-LU\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_56_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_56_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\lo-LA\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_57_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_57_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\lt-LT\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_58_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_58_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\lv-LV\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_59_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_59_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\mi-NZ\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="Microsoft.Windows.SDK.NET.dll" Component_="Microsoft.Windows.SDK.NET.dll" FileName="MICROS~1.DLL|Microsoft.Windows.SDK.NET.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\Microsoft.Windows.SDK.NET.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_60_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_60_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\mk-MK\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_61_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_61_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ml-IN\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_62_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_62_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\mr-IN\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_63_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_63_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ms-MY\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_64_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_64_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\mt-MT\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_65_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_65_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\nb-NO\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_66_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_66_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ne-NP\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_67_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_67_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\nl-NL\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_68_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_68_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\nn-NO\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_69_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_69_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\or-IN\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_70_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_70_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\pa-IN\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_71_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_71_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\pl\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_72_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_72_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\pl-PL\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll_10" Component_="iNKORE.UI.WPF.Modern.resources.dll_10" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\pl-PL\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_73_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_73_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\pt-BR\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll_11" Component_="iNKORE.UI.WPF.Modern.resources.dll_11" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\pt-BR\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_74_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_74_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\pt-PT\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll_12" Component_="iNKORE.UI.WPF.Modern.resources.dll_12" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\pt-PT\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_75_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_75_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\quz-PE\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_76_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_76_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ro-RO\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_77_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_77_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ru\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_78_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_78_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ru-RU\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll_13" Component_="iNKORE.UI.WPF.Modern.resources.dll_13" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ru-RU\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+    <ROW File="SamplesCommon.dll" Component_="SamplesCommon.dll" FileName="SAMPLE~1.DLL|SamplesCommon.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\SamplesCommon.dll" SelfReg="false"/>
+    <ROW File="SamplesCommon.pdb" Component_="SamplesCommon.dll" FileName="SAMPLE~1.PDB|SamplesCommon.pdb" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\SamplesCommon.pdb" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_79_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_79_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\sk-SK\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_80_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_80_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\sl-SI\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_81_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_81_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\sq-AL\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_82_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_82_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\sr-Cyrl-BA\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_83_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_83_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\sr-Cyrl-RS\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_84_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_84_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\sr-Latn-RS\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_85_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_85_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\sv-SE\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_86_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_86_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\sw-KE\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_87_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_87_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ta-IN\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_88_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_88_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\te-IN\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_89_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_89_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\th-TH\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_90_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_90_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\tr\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_91_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_91_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\tr-TR\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll_14" Component_="iNKORE.UI.WPF.Modern.resources.dll_14" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\tr-TR\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_92_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_92_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\tt-RU\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_93_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_93_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ug-CN\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_94_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_94_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\uk-UA\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_95_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_95_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\ur-PK\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_96_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_96_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\uz-Latn-UZ\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_97_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_97_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\vi-VN\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="WinRT.Runtime.dll" Component_="WinRT.Runtime.dll" FileName="WINRTR~1.DLL|WinRT.Runtime.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\WinRT.Runtime.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_98_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_98_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\zh-CN\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll_15" Component_="iNKORE.UI.WPF.Modern.resources.dll_15" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\zh-CN\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_99_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_99_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\zh-Hans\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_100_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_100_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\zh-Hant\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.Controls.reso_101_urces.dll" Component_="iNKORE.UI.WPF.Modern.Controls.reso_101_urces.dll" FileName="INKORE~1.DLL|iNKORE.UI.WPF.Modern.Controls.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\zh-TW\iNKORE.UI.WPF.Modern.Controls.resources.dll" SelfReg="false"/>
+    <ROW File="iNKORE.UI.WPF.Modern.resources.dll_16" Component_="iNKORE.UI.WPF.Modern.resources.dll_16" FileName="INKORE~2.DLL|iNKORE.UI.WPF.Modern.resources.dll" Attributes="0" SourcePath="..\source\iNKORE.UI.WPF.Modern.Gallery\bin\Release\net6.0-windows10.0.18362.0\zh-TW\iNKORE.UI.WPF.Modern.resources.dll" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AppXCfgComponent">
+    <ROW ID="Configuration" Order="1" ManifestFile="AppxManifest.xml" TargetOs="4" AutoUpdatesFrequency="0" AutoUpdatesOptions="0" ManifestBundleFile="AppxBundleManifest.xml"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="Build_MSIX" BuildName="Build_MSIX" BuildOrder="1" BuildType="7" PackageFolder="Gallery-Build_MSIX-SetupFiles" PackageFileName="Gallery" Languages="en" UwpTargetDesktop="TargetDeviceFamily" UwpAppInstallerManifestFile="MsixAppInstallerData.xml"/>
+    <ROW BuildKey="Build_MSIXSubBuild" BuildName="neutral" BuildOrder="2" BuildType="8" ParentBuild="Build_MSIX"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+    <ATTRIBUTE name="TranslateSegments" value="0b00000000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000000000000000000000000000000000000"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DigCertStoreComponent">
+    <ROW TimeStampUrl="http://timestamp.digicert.com" SignerDescription="[|ProductName]" SignOptions="0" SignTool="0" UseSha256="1" Subject="CN=TestCert_2025-1-23_16-36-43" Store="User\MY"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;classic\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="Themes.aip" Path="&lt;AI_FRAGS&gt;Themes.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;classic\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;classic\fragments\WelcomeDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.GenericXmlAttributeComponent">
+    <ROW XmlAttribute="AllowUserInteraction" XmlElement="UX" Name="AllowUserInteraction" Flags="0" Order="0" Value="false"/>
+    <ROW XmlAttribute="AppListEntry" XmlElement="VisualElements" Name="AppListEntry" Flags="0" Order="0" Value="default"/>
+    <ROW XmlAttribute="AppNameInTitle" XmlElement="UX" Name="AppNameInTitle" Flags="0" Order="0" Value="false"/>
+    <ROW XmlAttribute="BackgroundColor" XmlElement="VisualElements" Name="BackgroundColor" Flags="0" Order="0" Value="transparent"/>
+    <ROW XmlAttribute="BadgeLogo" XmlElement="LockScreen" Name="BadgeLogo" Flags="0" Order="0" FileId="iNKORE.UI.WPF.Modern.GalleryBadgeLogo.scale100.png"/>
+    <ROW XmlAttribute="Description" XmlElement="VisualElements" Name="Description" Flags="0" Order="0" Value="The best Fluent Design framework for your WPF applications."/>
+    <ROW XmlAttribute="DisplayName" XmlElement="VisualElements" Name="DisplayName" Flags="0" Order="0" Value="iNKORE.UI.WPF.Modern Gallery"/>
+    <ROW XmlAttribute="EntryPoint" XmlElement="Application" Name="EntryPoint" Flags="0" Order="0" Value="Windows.FullTrustApplication"/>
+    <ROW XmlAttribute="Executable" XmlElement="Application" Name="Executable" Flags="0" Order="0" FileId="iNKORE.UI.WPF.Modern.Gallery.exe"/>
+    <ROW XmlAttribute="HorizontalAlignment" XmlElement="LaunchWhenReady" Name="HorizontalAlignment" Flags="0" Order="0" Value="left"/>
+    <ROW XmlAttribute="HorizontalAlignment_1" XmlElement="Icon" Name="HorizontalAlignment" Flags="0" Order="0" Value="left"/>
+    <ROW XmlAttribute="HorizontalAlignment_2" XmlElement="Buttons" Name="HorizontalAlignment" Flags="0" Order="0" Value="left"/>
+    <ROW XmlAttribute="Id" XmlElement="Application" Name="Id" Flags="0" Order="0" Value="iNKORE.UI.WPF.Modern.Gallery"/>
+    <ROW XmlAttribute="IgnorableNamespaces" XmlElement="AppInstallerUX" Name="IgnorableNamespaces" Flags="0" Order="0" Value="ux ux2"/>
+    <ROW XmlAttribute="Image" XmlElement="SplashScreen" Name="Image" Flags="0" Order="0" FileId="iNKORE.UI.WPF.Modern.GallerySplashScreen.scale100.png"/>
+    <ROW XmlAttribute="IsSecondaryButtonAccent" XmlElement="Buttons" Name="IsSecondaryButtonAccent" Flags="0" Order="0" Value="false"/>
+    <ROW XmlAttribute="Language" XmlElement="Resource" Name="Language" Flags="0" Order="0" Value="en-US"/>
+    <ROW XmlAttribute="MaxVersionTested" XmlElement="TargetDeviceFamily" Name="MaxVersionTested" Flags="0" Order="0" Value="10.0.22621.0"/>
+    <ROW XmlAttribute="MinVersion" XmlElement="TargetDeviceFamily" Name="MinVersion" Flags="0" Order="0" Value="10.0.17763.0"/>
+    <ROW XmlAttribute="Mode" XmlElement="AppInformation" Name="Mode" Flags="0" Order="0" Value="flyout"/>
+    <ROW XmlAttribute="Name" XmlElement="Identity" Name="Name" Flags="0" Order="0" Value="47853NotYoojun.18640EDA99344"/>
+    <ROW XmlAttribute="Name_1" XmlElement="TargetDeviceFamily" Name="Name" Flags="0" Order="0" Value="Windows.Desktop"/>
+    <ROW XmlAttribute="Name_2" XmlElement="Capability" Name="Name" Flags="0" Order="0" Value="runFullTrust"/>
+    <ROW XmlAttribute="Notification" XmlElement="LockScreen" Name="Notification" Flags="0" Order="0" Value="badge"/>
+    <ROW XmlAttribute="Orientation" XmlElement="Buttons" Name="Orientation" Flags="0" Order="0" Value="horizontal"/>
+    <ROW XmlAttribute="Preference" XmlElement="Rotation" Name="Preference" Flags="0" Order="0" Value="portrait"/>
+    <ROW XmlAttribute="Preference_1" XmlElement="Rotation_1" Name="Preference" Flags="0" Order="0" Value="landscape"/>
+    <ROW XmlAttribute="PrimaryButtonMode" XmlElement="Buttons" Name="PrimaryButtonMode" Flags="0" Order="0" Value="normal"/>
+    <ROW XmlAttribute="ProcessorArchitecture" XmlElement="Identity" Name="ProcessorArchitecture" Flags="0" Order="0" Value="x64"/>
+    <ROW XmlAttribute="Publisher" XmlElement="Identity" Name="Publisher" Flags="0" Order="0" Value="CN=33D5D86B-A625-4AEB-ABA0-59810FC98993"/>
+    <ROW XmlAttribute="RuntimeBehavior" XmlElement="Application" Name="RuntimeBehavior" Flags="0" Order="0" Value="packagedClassicApp"/>
+    <ROW XmlAttribute="Scale" XmlElement="Resource_1" Name="Scale" Flags="0" Order="0" Value="100"/>
+    <ROW XmlAttribute="SecondaryButtonMode" XmlElement="Buttons" Name="SecondaryButtonMode" Flags="0" Order="0" Value="normal"/>
+    <ROW XmlAttribute="Size" XmlElement="Icon" Name="Size" Flags="0" Order="0" Value="default"/>
+    <ROW XmlAttribute="Square150x150Logo" XmlElement="VisualElements" Name="Square150x150Logo" Flags="0" Order="0" FileId="iNKORE.UI.WPF.Modern.GallerySquare150x150Logo.scale100.png"/>
+    <ROW XmlAttribute="Square310x310Logo" XmlElement="DefaultTile" Name="Square310x310Logo" Flags="0" Order="0" FileId="iNKORE.UI.WPF.Modern.GallerySquare310x310Logo.scale100.png"/>
+    <ROW XmlAttribute="Square44x44Logo" XmlElement="VisualElements" Name="Square44x44Logo" Flags="0" Order="0" FileId="iNKORE.UI.WPF.Modern.GallerySquare44x44Logo.scale100.png"/>
+    <ROW XmlAttribute="Square71x71Logo" XmlElement="DefaultTile" Name="Square71x71Logo" Flags="0" Order="0" FileId="iNKORE.UI.WPF.Modern.GallerySquare71x71Logo.scale100.png"/>
+    <ROW XmlAttribute="TrustLevel" XmlElement="Application" Name="TrustLevel" Flags="0" Order="0" Value="mediumIL"/>
+    <ROW XmlAttribute="Version" XmlElement="Identity" Name="Version" Flags="0" Order="0" Value="0.10.0.0"/>
+    <ROW XmlAttribute="Version_1" XmlElement="AppInstallerUX" Name="Version" Flags="0" Order="0" Value="1.0.0"/>
+    <ROW XmlAttribute="Wide310x150Logo" XmlElement="DefaultTile" Name="Wide310x150Logo" Flags="0" Order="0" FileId="iNKORE.UI.WPF.Modern.GalleryWide310x150Logo.scale100.png"/>
+    <ROW XmlAttribute="xmlns" XmlElement="AppInstallerUX" Name="xmlns" Flags="0" Order="0" Value="http://schemas.microsoft.com/msix/appinstallerux"/>
+    <ROW XmlAttribute="xmlnsux" XmlElement="AppInstallerUX" Name="xmlns:ux" Flags="0" Order="0" Value="http://schemas.microsoft.com/msix/appinstallerux"/>
+    <ROW XmlAttribute="xmlnsux2" XmlElement="AppInstallerUX" Name="xmlns:ux2" Flags="0" Order="0" Value="http://schemas.microsoft.com/msix/appinstallerux"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.GenericXmlElementComponent">
+    <ROW XmlElement="AppInformation" ParentElement="AppInstallerUX" Name="AppInformation" Order="3" Flags="0" Type="0"/>
+    <ROW XmlElement="AppInstallerUX" Name="AppInstallerUX" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="Application" ParentElement="Applications" Name="Application" Order="0" Flags="0" Type="4"/>
+    <ROW XmlElement="Applications" ParentElement="Package" Name="Applications" Order="3" Flags="0" Type="3"/>
+    <ROW XmlElement="Bundle" Name="Bundle" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="Buttons" ParentElement="AppInstallerUX" Name="Buttons" Order="1" Flags="0" Type="0"/>
+    <ROW XmlElement="Capabilities" ParentElement="Package" Name="Capabilities" Order="5" Flags="0" Type="0"/>
+    <ROW XmlElement="Capability" ParentElement="Capabilities" Name="Capability" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="DefaultTile" ParentElement="VisualElements" Name="DefaultTile" Order="2" Flags="0" Type="0"/>
+    <ROW XmlElement="Dependencies" ParentElement="Package" Name="Dependencies" Order="4" Flags="0" Type="0"/>
+    <ROW XmlElement="Description" ParentElement="Properties" Name="Description" Order="3" Flags="0" Text="The best Fluent Design framework for your WPF applications." Type="0"/>
+    <ROW XmlElement="DisplayName" ParentElement="Properties" Name="DisplayName" Order="1" Flags="0" Text="iNKORE.UI.WPF.Modern Gallery" Type="0"/>
+    <ROW XmlElement="Icon" ParentElement="AppInstallerUX" Name="Icon" Order="4" Flags="0" Type="0"/>
+    <ROW XmlElement="Identity" ParentElement="Package" Name="Identity" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="InitialRotationPreference" ParentElement="VisualElements" Name="InitialRotationPreference" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="LaunchWhenReady" ParentElement="AppInstallerUX" Name="LaunchWhenReady" Order="2" Flags="0" Type="0"/>
+    <ROW XmlElement="LockScreen" ParentElement="VisualElements" Name="LockScreen" Order="1" Flags="0" Type="0"/>
+    <ROW XmlElement="Logo" ParentElement="Properties" Name="Logo" Order="2" Flags="0" FileId="Store50x50Logo.scale100.png" Type="0"/>
+    <ROW XmlElement="Package" Name="Package" Order="0" Flags="0" Type="6"/>
+    <ROW XmlElement="Properties" ParentElement="Package" Name="Properties" Order="2" Flags="0" Type="0"/>
+    <ROW XmlElement="PublisherDisplayName" ParentElement="Properties" Name="PublisherDisplayName" Order="0" Flags="0" Text="NotYoojun.!" Type="0"/>
+    <ROW XmlElement="Resource" ParentElement="Resources" Name="Resource" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="Resource_1" ParentElement="Resources" Name="Resource" Order="1" Flags="0" Type="0"/>
+    <ROW XmlElement="Resources" ParentElement="Package" Name="Resources" Order="1" Flags="0" Type="0"/>
+    <ROW XmlElement="Rotation" ParentElement="InitialRotationPreference" Name="Rotation" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="Rotation_1" ParentElement="InitialRotationPreference" Name="Rotation" Order="1" Flags="0" Type="0"/>
+    <ROW XmlElement="SplashScreen" ParentElement="VisualElements" Name="SplashScreen" Order="3" Flags="0" Type="0"/>
+    <ROW XmlElement="SupportedUsers" ParentElement="Properties" Name="SupportedUsers" Order="5" Flags="0" Text="multiple" Type="0"/>
+    <ROW XmlElement="TargetDeviceFamily" ParentElement="Dependencies" Name="TargetDeviceFamily" Order="0" Flags="0" Type="28"/>
+    <ROW XmlElement="UX" ParentElement="AppInstallerUX" Name="UX" Order="0" Flags="0" Type="0"/>
+    <ROW XmlElement="VisualElements" ParentElement="Application" Name="VisualElements" Order="0" Flags="0" Type="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.GenericXmlFileComponent">
+    <ROW XmlFile="AppxBundleManifest.xml" FileName="AppxBundleManifest.xml" RootElement="Bundle" Flags="89" Version="1.0" Encoding="UTF-8" IndentUnits="2"/>
+    <ROW XmlFile="AppxManifest.xml" FileName="AppxManifest.xml" RootElement="Package" Flags="89" Version="1.0" Encoding="UTF-8" IndentUnits="2"/>
+    <ROW XmlFile="MsixAppInstallerData.xml" FileName="MsixAppInstallerData.xml" RootElement="AppInstallerUX" Flags="89" Version="1.0" Encoding="UTF-8" IndentUnits="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="ChangeButton" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="501"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RemoveButton" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="RepairButton" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="601"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND InstallMode=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="APPDIR" Component_="APPDIR" ManualDelete="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Type="65" Source="aicustact.dll" Target="PreserveInstallType"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]" MultiBuildTarget="Build_MSIX:"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="MainFeature" Component_="APPDIR"/>
+    <ROW Feature_="MainFeature" Component_="ProductInformation"/>
+    <ROW Feature_="AiAppXAssets" Component_="Store50x50Logo.scale100.png"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.resources.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_1_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_2_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_3_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="AppIcon.ico"/>
+    <ROW Feature_="MainFeature" Component_="fishes.wmv"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_4_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_5_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_6_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_7_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_8_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_9_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_10_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_11_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="ColorCodeStandard.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_12_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_13_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_14_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_15_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_16_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_17_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll_1"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_18_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_19_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_20_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_21_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll_2"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_22_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll_3"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_23_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_24_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_25_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_26_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll_4"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_27_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_28_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_29_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_30_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll_5"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_31_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll_6"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_32_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="Gallery_build202501231520.zip"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_33_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_34_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_35_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_36_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_37_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_38_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_39_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Gallery.exe"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_40_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_41_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="ICSharpCode.AvalonEdit.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_42_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Gallery.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_43_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_44_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_45_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll_7"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_46_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_47_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll_8"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_48_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_49_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_50_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_51_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_52_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_53_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll_9"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_54_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_55_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_56_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_57_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_58_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_59_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="Microsoft.Windows.SDK.NET.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_60_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_61_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_62_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_63_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_64_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_65_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_66_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_67_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_68_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_69_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_70_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_71_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_72_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll_10"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_73_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll_11"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_74_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll_12"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_75_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_76_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_77_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_78_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll_13"/>
+    <ROW Feature_="MainFeature" Component_="SamplesCommon.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_79_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_80_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_81_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_82_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_83_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_84_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_85_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_86_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_87_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_88_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_89_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_90_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_91_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll_14"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_92_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_93_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_94_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_95_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_96_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_97_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="WinRT.Runtime.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_98_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll_15"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_99_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_100_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.Controls.reso_101_urces.dll"/>
+    <ROW Feature_="MainFeature" Component_="iNKORE.UI.WPF.Modern.resources.dll_16"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_PRESERVE_INSTALL_TYPE" Sequence="199"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Manufacturer" Root="-1" Key="Software\[Manufacturer]" Name="\"/>
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="ProductName" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="\"/>
+    <ROW Registry="Software" Root="-1" Key="Software" Name="\"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="classic"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+</DOCUMENT>

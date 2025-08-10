@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PSADT.Invoke</RootNamespace>
+    <AssemblyName>Invoke-AppDeployToolkit</AssemblyName>
+    <Product>PSAppDeployToolkit Deployment Script Launcher</Product>
+    <Copyright>Copyright © 2025 PSAppDeployToolkit Team. All rights reserved.</Copyright>
+    <ApplicationIcon>Properties\appIcon.ico</ApplicationIcon>
+    <AssemblyTitle>PSAppDeployToolkit Deployment Script Launcher</AssemblyTitle>
+    <AssemblyDescription>Launches a PSAppDeployToolkit Invoke-AppDeployToolkit.ps1 script without a PowerShell console window being visible.</AssemblyDescription>
+    <AssemblyCompany>PSAppDeployToolkit Team</AssemblyCompany>
+    <AssemblyVersion>4.1.0.0</AssemblyVersion>
+    <InformationalVersion>4.1.0</InformationalVersion>
+    <LangVersion>latest</LangVersion>
+    <WarningLevel>9999</WarningLevel>
+    <GenerateSupportedRuntime>false</GenerateSupportedRuntime>
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <StartupObject>PSADT.Invoke.Program</StartupObject>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PreferNativeArm64>True</PreferNativeArm64>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\..\COPYING.Lesser"/>
+  </ItemGroup>
+</Project>
